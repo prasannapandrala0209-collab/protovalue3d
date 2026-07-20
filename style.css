@@ -519,3 +519,13 @@ grid-template-columns:1fr;
     margin:6px 0;
     font-size:15px;
 }
+.fade{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all 1s ease;
+}
+
+.fade.show{
+    opacity:1;
+    transform:translateY(0);
+}
