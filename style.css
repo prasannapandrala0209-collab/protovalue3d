@@ -572,3 +572,36 @@ grid-template-columns:1fr;
 .gallery-item h3{
     padding:20px;
 }
+.reviews{
+    padding:80px 10%;
+    background:#ffffff;
+    text-align:center;
+}
+
+.review-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.review-card{
+    background:#fff;
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.review-card:hover{
+    transform:translateY(-8px);
+}
+
+.review-card p{
+    margin:20px 0;
+    color:#555;
+}
+
+.review-card h4{
+    color:#ff6600;
+}
