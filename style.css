@@ -108,7 +108,12 @@ nav a:hover{
 }
 
 .hero-buttons a:hover{
-    transform:translateY(-5px);
+
+transform:translateY(-6px);
+
+box-shadow:0 15px 35px rgba(255,122,0,.35);
+
+}
 }
 
 /* SERVICES */
@@ -139,8 +144,12 @@ nav a:hover{
 }
 
 .card:hover{
-    transform:translateY(-10px);
-    border-color:#ff7a00;
+
+transform:translateY(-12px);
+
+box-shadow:0 20px 40px rgba(0,0,0,.4);
+
+}
 }
 
 .card h3{
