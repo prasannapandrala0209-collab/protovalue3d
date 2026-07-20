@@ -504,3 +504,15 @@ grid-template-columns:1fr;
 }
 
 }
+.footer{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:25px;
+    margin-top:60px;
+}
+
+.footer p{
+    margin:6px 0;
+    font-size:15px;
+}
